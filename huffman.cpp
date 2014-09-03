@@ -215,8 +215,8 @@ void HuffmanCodes(char data[], int freq[], int size)
 /** Programa para probar y controlar las funciones anteriores */
 int main()
 {
-    char arr[] = {'a', 'b', 'c', 'd', 'e', 'f'};
-    int freq[] = {5, 9, 12, 8, 16, 45};
+    char arr[] = {'j', 'u', 'a', 'n', 'i', 't','o','p','r','s','q','-'};
+    int freq[] = {1, 2, 3, 1, 2, 1,3,2,1,1,1,3};
     int size = sizeof(arr)/sizeof(arr[0]);
     HuffmanCodes(arr, freq, size);
     getch();
