@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
  
 // This constant can be avoided by explicitly calculating height of Huffman Tree
 #define MAX_TREE_HT 100
@@ -217,5 +218,5 @@ int main()
     int freq[] = {5, 9, 12, 8, 16, 45};
     int size = sizeof(arr)/sizeof(arr[0]);
     HuffmanCodes(arr, freq, size);
-    return 0;
+    getch();
 }
